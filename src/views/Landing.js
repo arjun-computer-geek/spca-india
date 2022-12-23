@@ -126,11 +126,6 @@ export default function Landing() {
                     <h5 className="text-left font-bold text-white">
                     BEAT THE HEAT – KEEP ANIMALS SAFE IN SUMMER
                     </h5>
-                    {/* <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p> */}
                   </blockquote>
                 </div>
               </div>
@@ -160,7 +155,7 @@ export default function Landing() {
             </svg>
           </div>
 
-          <div className="container mx-auto px-4">
+          {/* <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                 <img
@@ -226,7 +221,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
         <section className="pt-20 pb-48">
