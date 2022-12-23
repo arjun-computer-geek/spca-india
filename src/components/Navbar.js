@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Logo from '../assets/img/final-logo.png'
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -17,11 +17,11 @@ export default function Navbar(props) {
           <Link
             className={
               (props.transparent ? "text-white" : "text-gray-800") +
-              " text-sm font-bold leading-relaxed inline-block mr-4 text-4xl py-2 whitespace-nowrap uppercase"
+              " text-sm font-bold leading-relaxed inline-block mr-4 text-4xl py-2 whitespace-nowrap uppercase h-10 w-1/2"
             }
             to="/"
           >
-            SPCA
+           <img className="h-auto w-10/12" src={Logo} />
           </Link>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -43,29 +43,6 @@ export default function Navbar(props) {
           }
           id="example-navbar-warning"
         >
-          {/* <ul className="flex flex-col lg:flex-row list-none mr-auto">
-            <li className="flex items-center">
-              <a
-                className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                }
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
-              >
-                <i
-                  className={
-                    (props.transparent
-                      ? "lg:text-gray-300 text-gray-500"
-                      : "text-gray-500") +
-                    " far fa-file-alt text-lg leading-lg mr-2"
-                  }
-                />{" "}
-                Docs
-              </a>
-            </li>
-          </ul> */}
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="flex items-center">
               <a
@@ -146,6 +123,21 @@ export default function Navbar(props) {
               >
                 <i class="fas fa-sign-in-alt"></i>
                 <span className="inline-block ml-1">Join Us</span>
+              </button>
+            </li>
+            <li className="flex items-center">
+              <button
+                className={
+                  (props.transparent
+                    ? "bg-red-500 text-white active:bg-red-600"
+                    : "bg-pink-500 text-white active:bg-pink-600") +
+                  " text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                }
+                type="button"
+                style={{ transition: "all .15s ease" }}
+              >
+                <i class="fas fa-sign-in-alt"></i>
+                <span className="inline-block ml-1">Donate</span>
               </button>
             </li>
           </ul>

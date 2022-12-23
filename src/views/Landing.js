@@ -15,7 +15,7 @@ export default function Landing() {
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center"
           style={{
-            minHeight: "75vh"
+            minHeight: "100vh"
           }}>
           <div className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
@@ -26,12 +26,12 @@ export default function Landing() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="pr-12 pt-16">
                   <h1 className="text-white font-semibold text-5xl">
-                    Join Our Cause
+                    JOIN OUR CAUSE
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
-                    The mission of SPCA is simple but vast: to advance the safety and well-being of animals.
+                    The mission of SPCA International is simple but vast: to advance the safety and well-being of animals.
                   </p>
                   <button
                     // className={
@@ -48,8 +48,8 @@ export default function Landing() {
                     type="button"
                     style={{ transition: "all .15s ease" }}
                   >
-                    <i class="fas fa-heart"></i>
-                    <span className="inline-block ml-3">Donate</span>
+                    {/* <i class="fas fa-heart"></i> */}
+                    <span className="inline-block ml-3">JOIN OUR CAUSE</span>
                   </button>
                 </div>
               </div>
@@ -79,54 +79,10 @@ export default function Landing() {
 
         <section className="pb-20 bg-gray-300 -mt-24">
           <div className="container mx-auto px-4">
+            {/* keep it as it is otherwise it will create a white gap */}
             <div className="flex flex-wrap">
-              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i className="fas fa-award"></i>
-                    </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
-                    <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                      <i className="fas fa-retweet"></i>
-                    </div>
-                    <h6 className="text-xl font-semibold">
-                      Free Revisions
-                    </h6>
-                    <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                      <i className="fas fa-fingerprint"></i>
-                    </div>
-                    <h6 className="text-xl font-semibold">
-                      Verified Company
-                    </h6>
-                    <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
-
+            {/* ************************** */}
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
