@@ -87,13 +87,13 @@ export default function Landing() {
                   EDUCATION & AWARENESS
                 </h3>
                 <h4 className="mb-2 font-semibold leading-normal">
-                Take Action and Learn with SPCA All India
+                  Take Action and Learn with SPCA All India
                 </h4>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                   Provide clean and well-ventilated animal house with anti-slippery concrete floor having slope for drainage of urine and water. The roof of animal house should be insulator to avoid overheating during summer. Asbestos sheets can be used for this. On very hot days,
                 </p>
                 <a
-                  href="#"
+                  href="/eductaion-and-awarness"
                   className="font-bold text-gray-800 mt-8"
                 >
                   Read More
@@ -124,7 +124,7 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h5 className="text-left font-bold text-white">
-                    BEAT THE HEAT – KEEP ANIMALS SAFE IN SUMMER
+                      BEAT THE HEAT – KEEP ANIMALS SAFE IN SUMMER
                     </h5>
                   </blockquote>
                 </div>

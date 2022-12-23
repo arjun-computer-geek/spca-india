@@ -5,12 +5,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Landing from "views/Landing.js";
+import EducationAwarness from "views/EducationAwarness";
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Landing />} />
-      {/* <Redirect from='/' to='/landing' /> */}
+      <Route path='/eductaion-and-awarness' element={<EducationAwarness />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
