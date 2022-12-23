@@ -7,6 +7,7 @@ import Team1 from '../assets/img/team-1-800x800.jpg';
 import Team2 from '../assets/img/team-2-800x800.jpg';
 import Team3 from '../assets/img/team-3-800x800.jpg';
 import Team4 from '../assets/img/team-4-470x470.png';
+import BeatTheSummer from '../assets/img/beat-the-summer.png'
 
 export default function Landing() {
   return (
@@ -26,7 +27,7 @@ export default function Landing() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12 pt-16">
+                <div className="pt-16">
                   <h1 className="text-white font-semibold text-5xl">
                     JOIN OUR CAUSE
                   </h1>
@@ -34,13 +35,6 @@ export default function Landing() {
                     The mission of SPCA International is simple but vast: to advance the safety and well-being of animals.
                   </p>
                   <button
-                    // className={
-                    //   (transparent
-                    //     ? "bg-white text-gray-800 active:bg-gray-100"
-                    //     : "bg-pink-500 text-white active:bg-pink-600") +
-                    //   " text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                    // }
-
                     className={
                       "bg-red-500 text-white active:bg-red-600 text-xl font-bold uppercase px-8 py-4 mt-5 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
 
@@ -86,39 +80,34 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+                {/* <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
                   <i className="fas fa-user-friends text-xl"></i>
-                </div>
+                </div> */}
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  EDUCATION & AWARENESS
                 </h3>
+                <h4 className="text-3xl mb-2 font-semibold leading-normal">
+                Take Action and Learn with SPCA All India
+                </h4>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Don't let your uses guess by attaching tooltips and popoves
-                  to any element. Just make sure you enable them first via
-                  JavaScript.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and
-                  you're good to go. Just make sure you enable them first via
-                  JavaScript.
+                  Provide clean and well-ventilated animal house with anti-slippery concrete floor having slope for drainage of urine and water. The roof of animal house should be insulator to avoid overheating during summer. Asbestos sheets can be used for this. On very hot days, 4-6 inches thick grass layer of thatch can be put on the roof. These layers act as heat insulators due to which the inside temperature of animal house remains low. White painting or fixing shining aluminum sheet on roof of animal houses are useful in reflecting sunlight. The minimum height of roof of animal house should necessarily be 10 feet for proper circulation of air and the animals are protected from heat of roof. Cover windows, doors and other open places of animal house with sacks and sprinkle water on these sacks. Fans are also useful in animal house and if possible, arrangements for fitting fans should be made.
                 </p>
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+                  href="#"
                   className="font-bold text-gray-800 mt-8"
                 >
-                  Check Tailwind Starter Kit!
+                  Read More
                 </a>
               </div>
 
-              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-3">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src={BeatTheSummer}
                     className="w-full align-middle rounded-t-lg"
                   />
-                  <blockquote className="relative p-8 mb-4">
+                  <blockquote className="relative p-2 mb-2">
                     <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -134,14 +123,14 @@ export default function Landing() {
                         className="text-pink-600 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
-                    </h4>
-                    <p className="text-md font-light mt-2 text-white">
+                    <h5 className="text-left font-bold text-white">
+                    BEAT THE HEAT – KEEP ANIMALS SAFE IN SUMMER
+                    </h5>
+                    {/* <p className="text-md font-light mt-2 text-white">
                       The Arctic Ocean freezes every winter and much of the
                       sea-ice then thaws every summer, and that process will
                       continue whatever happens.
-                    </p>
+                    </p> */}
                   </blockquote>
                 </div>
               </div>
