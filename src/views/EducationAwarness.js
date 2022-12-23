@@ -2,11 +2,6 @@ import React from "react";
 
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
-import HeroImg from '../assets/img/hero.jpg';
-import Team1 from '../assets/img/team-1-800x800.jpg';
-import Team2 from '../assets/img/team-2-800x800.jpg';
-import Team3 from '../assets/img/team-3-800x800.jpg';
-import Team4 from '../assets/img/team-4-470x470.png';
 import BeatTheSummer from '../assets/img/beat-the-summer.png'
 import Vaccination from '../assets/img/vaccination.png'
 import PreventAnimalPoiling from '../assets/img/prevent-animal-poilin.png'
