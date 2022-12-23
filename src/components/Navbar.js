@@ -48,7 +48,7 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                     : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
@@ -61,7 +61,7 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                     : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
@@ -74,7 +74,7 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                     : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
@@ -87,7 +87,7 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                     : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
@@ -100,7 +100,7 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                     : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
