@@ -17,11 +17,11 @@ export default function Navbar(props) {
           <Link
             className={
               (props.transparent ? "text-white" : "text-gray-800") +
-              " text-sm font-bold leading-relaxed inline-block mr-4 text-4xl py-2 whitespace-nowrap uppercase h-10 w-1/2"
+              " text-sm font-bold leading-relaxed inline-block mr-4 text-4xl py-2 whitespace-nowrap uppercase h-10 lg\:w-4\/12 "
             }
             to="/"
           >
-           <img className="h-auto w-10/12" src={Logo} />
+           <img className="h-auto " src={Logo} />
           </Link>
           <button
             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

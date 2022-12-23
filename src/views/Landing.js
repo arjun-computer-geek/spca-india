@@ -86,11 +86,11 @@ export default function Landing() {
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   EDUCATION & AWARENESS
                 </h3>
-                <h4 className="text-3xl mb-2 font-semibold leading-normal">
+                <h4 className="mb-2 font-semibold leading-normal">
                 Take Action and Learn with SPCA All India
                 </h4>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Provide clean and well-ventilated animal house with anti-slippery concrete floor having slope for drainage of urine and water. The roof of animal house should be insulator to avoid overheating during summer. Asbestos sheets can be used for this. On very hot days, 4-6 inches thick grass layer of thatch can be put on the roof. These layers act as heat insulators due to which the inside temperature of animal house remains low. White painting or fixing shining aluminum sheet on roof of animal houses are useful in reflecting sunlight. The minimum height of roof of animal house should necessarily be 10 feet for proper circulation of air and the animals are protected from heat of roof. Cover windows, doors and other open places of animal house with sacks and sprinkle water on these sacks. Fans are also useful in animal house and if possible, arrangements for fitting fans should be made.
+                  Provide clean and well-ventilated animal house with anti-slippery concrete floor having slope for drainage of urine and water. The roof of animal house should be insulator to avoid overheating during summer. Asbestos sheets can be used for this. On very hot days,
                 </p>
                 <a
                   href="#"
@@ -220,8 +220,8 @@ export default function Landing() {
                 </div>
               </div>
             </div>
-          </div>
-        </section> */}
+          </div> */}
+        </section>
 
 
         <section className="pt-20 pb-48">
